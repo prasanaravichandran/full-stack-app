@@ -1,0 +1,17 @@
+.cardText {
+    text-align : start;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    min-width: 1px;
+}
+
+.amount::before { 
+    content: "INR";
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+    margin-right: 2%;
+}

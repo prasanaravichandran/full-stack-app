@@ -1,0 +1,18 @@
+.expensePage {
+    background-color: #02115d;
+
+    .emptyListText {
+        place-content: center;
+    }
+    .expensesListContainer {
+        max-height: 70vh;
+        overflow: auto;
+    }
+    .creditAmount::before, .debitAmount::before { 
+        content: "INR";
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+        margin-right: 2%;
+    }
+}
