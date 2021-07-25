@@ -1,4 +1,4 @@
-# full-stack-app
+# Full stack application
 
 A ReactJS application to keep track of the expenses and shows us the daily metrics of the expense (total credit or debit per day) with NodeJS GraphQL Server.
 
