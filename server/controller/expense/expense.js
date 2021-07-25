@@ -9,7 +9,7 @@
 const { expenseSchema } = require('../../models/expense');
 
 module.exports.getExpenses = ({},context) => new Promise((resolve, reject) => {
-    expenseSchema.find({'user_name': `${context.user_name}`})
+    expenseSchema.find({'user_name': `${context.user_name}`}).sort({ 'created_date': -1 })
     .then((response) => {
         resolve(response);
     })
