@@ -1,6 +1,6 @@
 # Full stack application (Responsive)
 
-A ReactJS responsive application to keep track of the expenses and shows us the daily metrics of the expense (total credit and debit per day) with server as NodeJS GraphQL.
+A responsive ReactJS application to keep track of the expenses and shows us the daily metrics of the expense (total credit and debit per day) with server as NodeJS GraphQL.
 
 **Technology Used**:
 1. Frontend - ReactJS (Hooks, GraphQL Client, Bootstrap, Responsive)
